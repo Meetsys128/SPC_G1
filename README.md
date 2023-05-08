@@ -3,28 +3,28 @@ A library for playing music with one passive buzzer, loading the songs and sound
 The structure of data.txt:
 //one song (songs separated by ; alone on a line)
 
-mpr:
-(millis per row)
-(space)
-pidxs:
-0
-2
-0
-1
-5
-4
-5
-3
-//...
-(space)
-patterns:
-(
-<NOTE>(space)<OCTAVE>(space)<LENGHT>(space)<EFFECT>
-C 4 3 0
-note c, octave 4, played for 3 * the mpr(ms per row), no effect)
-...
-, // empty line with only ,
-...
-;
-...
+mpr: <br/>
+(millis per row)<br/>
+(space)<br/>
+pidxs:<br/>
+0<br/>
+2<br/>
+0<br/>
+1<br/>
+5<br/>
+4<br/>
+5<br/>
+3<br/>
+//...<br/>
+(space)<br/>
+patterns:<br/>
+(<br/>
+<NOTE>(space)<OCTAVE>(space)<LENGHT>(space)<EFFECT><br/>
+C 4 3 0<br/>
+note c, octave 4, played for 3 * the mpr(ms per row), no effect)<br/>
+...<br/>
+, // empty line with only ,<br/>
+...<br/>
+;<br/>
+...<br/>
 
